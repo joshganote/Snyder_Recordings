@@ -1,4 +1,10 @@
-.nav-container {
+.nav-position {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.nav-layout {
   height: 83px;
   background-color: antiquewhite;
   display: flex;

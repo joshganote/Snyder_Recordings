@@ -4,10 +4,8 @@ import "./HeroBanner.css";
 
 export const HeroBanner = () => {
   return (
-    <div>
-      <div className="hero-banner">
-        <h1>A.M. Paradox</h1>
-      </div>
+    <div className="hero-banner">
+      <h1>A.M. Paradox</h1>
     </div>
   );
 };

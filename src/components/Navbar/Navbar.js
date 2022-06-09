@@ -7,8 +7,8 @@ import "./Navbar.css";
 export const Navbar = () => {
   const content = useContext(ContentContext);
   return (
-    <div style={{ position: "fixed", zIndex: 10, width: "100%" }}>
-      <div className="nav-container">
+    <div className="nav-position">
+      <div className="nav-layout">
         <img src={snyderLogoBlue} alt="snyder recordings logo" className="logo" />
         <div className="link-container">
           {content.navbar.route.map((link, index) => (
