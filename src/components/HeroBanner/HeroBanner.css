@@ -2,13 +2,43 @@
   background-image: url("../../assets/Images/image1.png");
   height: 691px;
   width: 100%;
+  background-size: 100%;
   position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
+  transition: background-size 1500ms ease;
+  background-size: 100%;
+  -webkit-transition: background-size 1500ms linear;
+  -moz-transition: background-size 1500 linear;
+  -o-transition: background-size 1500 linear;
+  -ms-transition: background-size 1500ms linear;
 }
 
-h1 {
-  margin: 0;
+/* .hero-banner:hover {
+  background-size: 120%;
+} */
+
+.hero-wrapper {
+  padding-top: 83px;
+  width: 548px;
+  background-color: aqua;
+  margin-left: 73px;
+}
+
+.hero-header {
+}
+
+.header-txt {
+}
+
+.hero-description {
+}
+
+.description-txt {
+}
+
+.hero-play {
+}
+
+.play-txt {
 }
 
 @media only screen and (max-width: 992px) {
