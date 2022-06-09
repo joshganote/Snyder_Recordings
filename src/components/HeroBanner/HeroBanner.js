@@ -1,8 +1,10 @@
-import React from "react";
-import play from "../../assets/Icons/SVGs/playbutton.svg";
+import Reac, { useContext } from "react";
+import { ContentContext } from "../../util/contentContext";
 import "./HeroBanner.css";
 
 export const HeroBanner = () => {
+  const content = useContext(ContentContext);
+
   const handleClick = () => {
     /**
      * Perform task
@@ -12,17 +14,13 @@ export const HeroBanner = () => {
   return (
     <div className="hero-banner">
       <div className="hero-wrapper">
-        <p className="a-m-paradox">A.M. Paradox</p>
+        <p className="a-m-paradox">{content.hero.header.name}</p>
 
-        <p className="christopher-brent-wo">
-          Christopher Brent Wood, better known by his stage name Brent Faiyaz, is an American singer
-          and record producer. He released his debut project, an extended play entitled A.M.
-          Paradox, in 2016.
-        </p>
+        <p className="christopher-brent-wo">{content.hero.description.description}</p>
 
         <div className="hero-play" onClick={handleClick}>
-          <img src={play} alt="play button" className="group-4-copy-4" />
-          <p className="watch-video">Watch Video</p>
+          <img src={content.hero.playIcon} alt="play button" className="group-4-copy-4" />
+          <p className="watch-video">{content.hero.watchVideo.watch}</p>
         </div>
       </div>
     </div>
