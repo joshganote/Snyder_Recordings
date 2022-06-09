@@ -1,0 +1,169 @@
+.hero-banner {
+  background-image: url("../../assets/Images/image1.png");
+  height: 691px;
+  width: 100%;
+  background-size: 100%;
+  transition: background-size 1500ms ease;
+  background-size: 100%;
+  -webkit-transition: background-size 1500ms linear;
+  -moz-transition: background-size 1500 linear;
+  -o-transition: background-size 1500 linear;
+  -ms-transition: background-size 1500ms linear;
+  transition: background-size 1500ms linear;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner:hover {
+  background-size: 120%;
+}
+
+.hero-wrapper {
+  margin-left: 73px;
+  padding-top: 83px;
+  width: 548px;
+}
+
+.a-m-paradox {
+  margin: 0;
+  height: 76px;
+  width: 450px;
+  color: #ffffff;
+  font-family: Karla;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 76px;
+}
+
+.christopher-brent-wo {
+  margin: 0;
+  height: 101px;
+  width: 548px;
+  color: #ffffff;
+  font-family: Karla;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.hero-play {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  transition: all 1s;
+  transform-origin: left center;
+  cursor: pointer;
+}
+
+.hero-play:hover {
+  transform: scale(1.1);
+}
+
+.group-4-copy-4 {
+  margin: 0;
+  height: 39px;
+  width: 39px;
+  margin-right: 10px;
+}
+
+.watch-video {
+  margin: 0;
+  height: 17px;
+  width: 84px;
+  color: #ffffff;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-banner {
+    height: 521px;
+  }
+
+  .a-m-paradox {
+    height: 62px;
+    font-size: 58px;
+    line-height: 62px;
+  }
+
+  .christopher-brent-wo {
+    height: 91px;
+    font-size: 14px;
+    line-height: 25px;
+    width: 500px;
+  }
+
+  .group-4-copy-4 {
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-banner {
+    height: 420px;
+  }
+
+  .hero-wrapper {
+    margin-left: 43px;
+    transition: 0.5s ease padding;
+  }
+
+  .a-m-paradox {
+    height: 52px;
+    font-size: 48px;
+    line-height: 42px;
+  }
+
+  .christopher-brent-wo {
+    height: 91px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 450px;
+  }
+
+  .group-4-copy-4 {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-banner {
+    height: 320px;
+  }
+
+  .hero-wrapper {
+    margin-left: 18px;
+    transition: 0.5s ease padding;
+  }
+
+  .a-m-paradox {
+    height: 42px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .christopher-brent-wo {
+    height: 81px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 330px;
+  }
+
+  .group-4-copy-4 {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .watch-video {
+    font-size: 12px;
+  }
+}
