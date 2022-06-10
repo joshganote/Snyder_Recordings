@@ -30,4 +30,36 @@ export const Content = {
     bio: `Faiyaz began uploading his music onto SoundCloud in 2014 and moved from his hometown Columbia, Maryland to Charlotte, North Carolina before ultimately settling in Los Angeles, California to further his music career. On January 19, 2015, he released his debut single "Allure".[4] On June 1, 2016, Faiyaz released "Invite Me", the lead single from his upcoming debut EP. On September 19, 2016, his 21st birthday, the EP entitled A.M. Paradox was released and received with positive reviews from music critics.  On January 26, 2017, Sonder released their debut EP Into.`,
     learnMore: "Learn More",
   },
+
+  newRelease: {
+    header: "New Release",
+    subHeader:
+      "New albums every single month, check out the newest & best from Snyder Recording artist, now available on Apple Music & Spotify.",
+    release: [
+      {
+        album: "Trapsoul",
+        artist: "Bryson Tiller",
+        description:
+          "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+      },
+      {
+        album: "Trapsoul",
+        artist: "Bryson Tiller",
+        description:
+          "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+      },
+      {
+        album: "Trapsoul",
+        artist: "Bryson Tiller",
+        description:
+          "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+      },
+      {
+        album: "Trapsoul",
+        artist: "Bryson Tiller",
+        description:
+          "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+      },
+    ],
+  },
 };

@@ -6,6 +6,7 @@ import { HeroBanner } from "./components/HeroBanner/HeroBanner";
 
 import "./App.css";
 import { Artist } from "./components/Artist/Artist";
+import { NewRelease } from "./components/NewRelease/NewRelease";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <HeroBanner />
         <Artist />
+        <NewRelease />
       </div>
     </ContentProvider>
   );
