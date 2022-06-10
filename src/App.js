@@ -10,9 +10,11 @@ import { Artist } from "./components/Artist/Artist";
 function App() {
   return (
     <ContentProvider>
-      <Navbar />
-      <HeroBanner />
-      <Artist />
+      <div className="App">
+        <Navbar />
+        <HeroBanner />
+        <Artist />
+      </div>
     </ContentProvider>
   );
 }
