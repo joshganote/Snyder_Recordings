@@ -1,7 +1,7 @@
-.artist-section {
+/* .artist-section {
   background-color: antiquewhite;
   padding-left: 73px;
-  padding-right: 73px;
+  padding-right: 177px;
   padding-top: 97px;
   padding-bottom: 126px;
 }
@@ -16,7 +16,6 @@
 
 .artist-img {
   width: 100%;
-  height: auto;
   object-fit: cover;
   overflow: hidden;
 }
@@ -77,4 +76,65 @@
     width: 108px;
     height: 41px;
   }
+} */
+
+.artist-section {
+  background-color: antiquewhite;
+  padding: 97px 172px 126px 73px;
+}
+
+.test4 {
+  display: flex;
+}
+
+.artist-img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.artist-info {
+  padding-left: 37px;
+}
+
+.artist-header {
+  margin: 0;
+  height: 100px;
+  width: 450px;
+  color: #001d5d;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-bottom: 12px;
+}
+
+.artist-bio {
+  margin: 0;
+  height: 254px;
+  width: 450px;
+  color: #525252;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom: 26px;
+}
+
+.learn-btn {
+  font-family: "Karla";
+  background-color: #d9f0d0;
+  color: #68c242;
+  width: 148px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 1s, color 1s;
+  margin: 0;
+  border: 0;
+}
+
+.learn-btn:hover {
+  background-color: #68c242;
+  color: white;
 }

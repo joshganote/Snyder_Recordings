@@ -14,9 +14,22 @@ export const Artist = () => {
   };
 
   return (
+    // <div className="artist-section">
+    //   <div className="test4">
+    //     <img src={ArtistImg} alt="artist pic" className="artist-img" />
+    //     <div className="artist-info">
+    //       <p className="artist-header">{content.artist.header}</p>
+    //       <p className="artist-bio">{content.artist.bio}</p>
+    //       <button onClick={handleClick} className="learn-btn">
+    //         {content.artist.learnMore}
+    //       </button>
+    //     </div>
+    //   </div>
+    // </div>
     <div className="artist-section">
       <div className="test4">
         <img src={ArtistImg} alt="artist pic" className="artist-img" />
+
         <div className="artist-info">
           <p className="artist-header">{content.artist.header}</p>
           <p className="artist-bio">{content.artist.bio}</p>
