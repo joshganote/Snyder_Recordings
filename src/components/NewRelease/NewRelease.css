@@ -1,0 +1,140 @@
+.artist-container {
+  height: 681px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.release-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 62px;
+  padding-bottom: 66px;
+}
+
+.release-header {
+  margin: 0;
+  height: 50px;
+  width: 548px;
+  color: #001d5d;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.release-subHeader {
+  margin: 0;
+  height: 50px;
+  width: 548px;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
+.release-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-card {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 547px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 13px 0 rgba(152, 152, 152, 0.5);
+  margin-left: 38px;
+}
+
+.album-container {
+  padding: 62px 20px;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+.release-info {
+  margin: 0;
+  padding-top: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+.artist-album {
+  margin: 0;
+  height: 50px;
+  width: 125px;
+  color: #001d5d;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.artist-name {
+  margin: 0;
+  height: 40px;
+  width: 138px;
+  color: #68c242;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.artist-description {
+  margin: 0;
+  height: 124px;
+  width: 332px;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.toggle-release {
+  display: flex;
+  justify-content: center;
+  padding-top: 71px;
+}
+
+.play-left {
+  margin: 0;
+  padding-right: 38px;
+  cursor: pointer;
+}
+
+.play-right {
+  margin: 0;
+  cursor: pointer;
+  transform: rotate(-180deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .release-header {
+    font-size: 32px;
+  }
+
+  .release-subHeader {
+    width: 498px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .release-header {
+    font-size: 28px;
+  }
+
+  .release-subHeader {
+    width: 398px;
+    font-size: 12px;
+  }
+}
