@@ -1,0 +1,17 @@
+.resp {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 558px;
+}
+
+.gmnoprint {
+  display: none;
+}
+.gm-style > div > div > a > div > img {
+  display: none;
+}
+
+.gm-style-cc {
+  display: none;
+}
