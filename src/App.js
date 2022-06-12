@@ -3,6 +3,7 @@ import { Styleguide } from "./styles/Styleguide";
 import { ContentProvider } from "./util/contentContext";
 import { Navbar } from "./components/Navbar/Navbar";
 import { HeroBanner } from "./components/HeroBanner/HeroBanner";
+import { Map } from "./components/Map/Map";
 
 import "./App.css";
 import { Artist } from "./components/Artist/Artist";
@@ -16,6 +17,7 @@ function App() {
         <HeroBanner />
         <Artist />
         <NewRelease />
+        <Map />
       </div>
     </ContentProvider>
   );
