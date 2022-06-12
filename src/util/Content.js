@@ -4,6 +4,8 @@ import musicIcon from "../assets/Icons/SVGs/music.svg";
 import artistIcon from "../assets/Icons/SVGs/artists.svg";
 import concertIcon from "../assets/Icons/SVGs/concerts.svg";
 import playIcon from "../assets/Icons/SVGs/playbutton.svg";
+import leftController from "../assets/Icons/SVGs/left_controller.svg";
+import albumArt from "../assets/Images/image4.png";
 
 export const Content = {
   navbar: {
@@ -37,29 +39,30 @@ export const Content = {
       "New albums every single month, check out the newest & best from Snyder Recording artist, now available on Apple Music & Spotify.",
     release: [
       {
+        id: 0,
         album: "Trapsoul",
         artist: "Bryson Tiller",
         description:
           "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+        albumArt: albumArt,
       },
       {
+        id: 1,
         album: "Trapsoul",
         artist: "Bryson Tiller",
         description:
           "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+        albumArt: albumArt,
       },
       {
+        id: 2,
         album: "Trapsoul",
         artist: "Bryson Tiller",
         description:
           "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
-      },
-      {
-        album: "Trapsoul",
-        artist: "Bryson Tiller",
-        description:
-          "Bryson Djuan Tiller, is an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1. ",
+        albumArt: albumArt,
       },
     ],
+    playIcon: leftController,
   },
 };
