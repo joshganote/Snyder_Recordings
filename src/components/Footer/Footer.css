@@ -1,0 +1,149 @@
+.footer-wrapper {
+  background-color: #001d5d;
+  width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  padding: 60px 74px 0px 73px;
+}
+
+.footer-section {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.address-section {
+  margin: 0;
+}
+
+.address-section p {
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin: 0;
+}
+
+.footer-logo {
+  width: 93px;
+  height: auto;
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.headers {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.address-section p {
+  margin: 0;
+}
+
+.section-col {
+  display: flex;
+  flex-direction: column;
+  color: #cbcbcb;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.section-col a {
+  margin: 0;
+  text-decoration: none;
+  color: #cbcbcb;
+  transition: all 1s;
+  transform-origin: left center;
+}
+
+.section-col a:hover {
+  transform: scale(1.1);
+}
+
+.bottom-wrapper {
+  padding-left: 73px;
+  padding-right: 75px;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 0.2px solid white;
+  padding-top: 60px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 23px;
+}
+
+.bottom-left {
+  display: flex;
+  margin: 0;
+}
+
+.bottom-left a {
+  display: flex;
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: none;
+  padding-right: 30px;
+  transition: all 1s;
+  transform-origin: left center;
+}
+
+.bottom-left a:hover {
+  transform: scale(1.1);
+}
+
+.bottom-right img {
+  cursor: pointer;
+  transition: all 1s;
+  transform-origin: left center;
+}
+
+.bottom-right img:hover {
+  transform: scale(1.1);
+}
+
+.p-left-22 {
+  padding-left: 22px;
+}
+
+.bottom-right {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-section {
+    width: 100%;
+  }
+
+  .bottom-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-left a {
+    padding-right: 10px;
+  }
+
+  .p-left-30 {
+    padding-left: 0px;
+  }
+}

@@ -104,11 +104,17 @@
   letter-spacing: 0;
   line-height: 17px;
   margin-top: 45px;
+  transition: background-color 1s, color 1s;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #68c242;
+  color: white;
 }
 
 @media only screen and (max-width: 992px) {
   .contact-container {
-    background-color: antiquewhite;
     height: auto;
   }
   .row-one {
@@ -143,17 +149,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .contact-container {
-    background-color: yellow;
-  }
-}
-
 @media only screen and (max-width: 576px) {
-  .contact-container {
-    background-color: tan;
-  }
-
   .form-top {
     padding: 3%;
     width: 100%;
