@@ -6,6 +6,10 @@ import concertIcon from "../assets/Icons/SVGs/concerts.svg";
 import playIcon from "../assets/Icons/SVGs/playbutton.svg";
 import leftController from "../assets/Icons/SVGs/left_controller.svg";
 import albumArt from "../assets/Images/image4.png";
+import youTubeIcon from "../assets/Icons/SVGs/youtube.svg";
+import twitterIcon from "../assets/Icons/SVGs/twitter.svg";
+import instagramIcon from "../assets/Icons/SVGs/Instagram.svg";
+import snapchatIcon from "../assets/Icons/SVGs/Snapchat.svg";
 
 export const Content = {
   navbar: {
@@ -64,5 +68,81 @@ export const Content = {
       },
     ],
     playIcon: leftController,
+  },
+
+  contactForm: {
+    header: "Get in Touch",
+    subHeader:
+      "New albums every single month, check out the newest & best from Snyder Recording artist, now available on Apple Music & Spotify.",
+    send: "Send Message",
+  },
+
+  footer: {
+    address: {
+      street: "8521 W Fairfax Rd ",
+      city: "Los Angeles, CA",
+      zipCode: "90210",
+      phone: "909.505.4302",
+    },
+    explore: {
+      header: "Explore",
+      links: [
+        { name: "About Us", path: "/about-us" },
+        { name: "Our Story", path: "/our-story" },
+        { name: "Teams", path: "/teams" },
+        { name: "Careers", path: "/careers" },
+        { name: "FAQ", path: "/faq" },
+      ],
+    },
+    music: {
+      header: "Music",
+      links: [
+        { name: "Missing Out", path: "/missing-out" },
+        { name: "Trapsoul", path: "/trapsoul" },
+        { name: "Sonder Sons", path: "/sonder-son" },
+        { name: "Paradise Today", path: "/paradise-today" },
+        { name: "Needed", path: "/needed" },
+      ],
+    },
+    artists: {
+      header: "Artists",
+      links: [
+        { name: "Brent Faiyaz", path: "/brent-faiyaz" },
+        { name: "Drake", path: "/drake" },
+        { name: "Bryson Tiller", path: "/bryson-tiller" },
+        { name: "Young Ford", path: "/young-ford" },
+        { name: "Roy Fresco", path: "/rou-fresco" },
+      ],
+    },
+    records: {
+      header: "Records",
+      links: [
+        { name: "What a Time", path: "/what-a-time" },
+        { name: "Coming Home", path: "/coming-home" },
+        { name: "Always First", path: "/always-first" },
+        { name: "So Far Gone", path: "/so-far-gone" },
+        { name: "Big Bluez", path: "/big-bluez" },
+      ],
+    },
+    concerts: {
+      header: "Concerts",
+      links: [
+        { name: "Midland Live", path: "/midland-live" },
+        { name: "Granada 2018", path: "/granada-2018" },
+        { name: "Tiller Unplugged", path: "/tiller-unplugged" },
+        { name: "Love Live", path: "/love-live" },
+        { name: "XX Live Mix", path: "/xx-live-mix" },
+      ],
+    },
+    iconList: [
+      { icon: youTubeIcon, name: "YouTube Icon" },
+      { icon: twitterIcon, name: "Twitter Icon" },
+      { icon: instagramIcon, name: "Instagram Icon" },
+      { icon: snapchatIcon, name: "Snapchat Icon" },
+    ],
+    privacy: [
+      { name: "Privacy Policy", path: "/privacy-policy" },
+      { name: "Terms & Conditions", path: "/terms-&-conditions" },
+    ],
   },
 };
