@@ -8,6 +8,7 @@ import { Map } from "./components/Map/Map";
 import "./App.css";
 import { Artist } from "./components/Artist/Artist";
 import { NewRelease } from "./components/NewRelease/NewRelease";
+import { ContactForm } from "./components/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Artist />
         <NewRelease />
         <Map />
+        <ContactForm />
       </div>
     </ContentProvider>
   );

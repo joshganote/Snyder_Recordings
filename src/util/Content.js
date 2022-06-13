@@ -65,4 +65,11 @@ export const Content = {
     ],
     playIcon: leftController,
   },
+
+  contactForm: {
+    header: "Get in Touch",
+    subHeader:
+      "New albums every single month, check out the newest & best from Snyder Recording artist, now available on Apple Music & Spotify.",
+    send: "Send Message",
+  },
 };
