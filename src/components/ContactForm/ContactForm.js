@@ -3,6 +3,7 @@ import { ContentContext } from "../../util/contentContext";
 import artistPic from "../../assets/Images/image3.png";
 
 import "./ContactForm.css";
+import { ContactFormCard } from "./ContactFormCard";
 
 export const ContactForm = () => {
   const content = useContext(ContentContext);
@@ -48,55 +49,16 @@ export const ContactForm = () => {
         <div className="form-top">
           <p className="form-header">{content.contactForm.header}</p>
           <p className="form-subHeader">{content.contactForm.subHeader}</p>
-          <form onSubmit={handleSubmit}>
-            <div className="row-one">
-              <input
-                type="text"
-                placeholder="First Name"
-                name="firstName"
-                value={formValues.firstName}
-                onChange={handleChange}
-                className="input margin-r"
-              />
-              <input
-                type="text"
-                placeholder="Last Name"
-                name="lastName"
-                value={formValues.lastName}
-                onChange={handleChange}
-                className="input"
-              />
-            </div>
-            <div className="row-two">
-              <input
-                type="text"
-                placeholder="Email"
-                name="email"
-                value={formValues.email}
-                onChange={handleChange}
-                className="input margin-r"
-              />
-              <input
-                type="text"
-                placeholder="Reason For Contacting"
-                name="reason"
-                value={formValues.reason}
-                onChange={handleChange}
-                className="input icon"
-              />
-            </div>
-            <textarea
-              className="message"
-              placeholder="Write a brief message..."
-              name="message"
-              rows="6"
-              value={formValues.message}
-              onChange={handleChange}
-            ></textarea>
-            <button type="submit" className="send-btn">
-              {content.contactForm.send}
-            </button>
-          </form>
+          <ContactFormCard
+            submit={handleSubmit}
+            firstName={formValues.firstName}
+            lastName={formValues.lastName}
+            email={formValues.email}
+            reason={formValues.reason}
+            message={formValues.message}
+            onChange={handleChange}
+            button={content.contactForm.send}
+          />
         </div>
         <img src={artistPic} alt="alt" className="img-test" />
       </div>
