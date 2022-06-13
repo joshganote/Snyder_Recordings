@@ -12,15 +12,13 @@ import "./App.css";
 function App() {
   return (
     <ContentProvider>
-      <div className="App">
-        <Navbar />
-        <HeroBanner />
-        <Artist />
-        <NewRelease />
-        <Map />
-        <ContactForm />
-        <Footer />
-      </div>
+      <Navbar />
+      <HeroBanner />
+      <Artist />
+      <NewRelease />
+      <Map />
+      <ContactForm />
+      <Footer />
     </ContentProvider>
   );
 }

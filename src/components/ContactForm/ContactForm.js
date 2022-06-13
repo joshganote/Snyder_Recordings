@@ -40,7 +40,6 @@ export const ContactForm = () => {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setContactInfo(formValues);
-    setFormValues(initialValues);
   };
 
   return (
